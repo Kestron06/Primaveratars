@@ -33,7 +33,7 @@ function fetchMembers() {
 			// Get all comments from the program
 			var feedback = data['feedback'];
 			var members = [];
-			// Regular expression to find Icicle join codes
+			// Regular expression to find team join codes
 			var regex = /~\["","Icicle"|"Pyroach"|"Mountaintop"|"Cloudlark"|"Buzzaw",[0-9]\]~/gi;
 
 			// This function loops over a number (i)
