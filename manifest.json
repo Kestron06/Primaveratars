@@ -1,0 +1,26 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "scripts/background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "scripts/content.js" ],
+      "matches": [ "*://*.khanacademy.org/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Changes your Khan Academy avatar based on your Primavera team.",
+   "externally_connectable": {
+      "matches": [ "*://*.khanacademy.org/*" ]
+   },
+   "icons": {
+      "128": "images/colour/icon128.png",
+      "16": "images/colour/icon16.png",
+      "48": "images/colour/icon48.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "33.0.1750",
+   "name": "The Primaveratars Extension",
+   "permissions": [ "*://*.khanacademy.org/*", "webRequest", "webRequestBlocking" ],
+   "short_name": "Primaveratar",
+   "version": "1.0.1"
+}
