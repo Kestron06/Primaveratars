@@ -34,7 +34,7 @@ function fetchMembers() {
 			var feedback = data['feedback'];
 			var members = [];
 			// Regular expression to find team join codes
-			var regex = /~\["","Icicle"|"Pyroach"|"Mountaintop"|"Cloudlark"|"Buzzaw",[0-9]\]~/gi;
+			var regex = /~\["","Icicle"|"Pyroach"|"Mountaintop"|"Cloudlark"|"Terratrice"|"Buzzaw",[0-9]\]~/gi;
 
 			// This function loops over a number (i)
 			// and looks it up in the comments array
